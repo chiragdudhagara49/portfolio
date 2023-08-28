@@ -1,8 +1,4 @@
-import About from "./Components/About";
-import Contact from "./Components/Contact";
-import Home from "./Components/Home";
-import StickyNavbar from "./Components/StickyNavbar";
-import Work from "./Components/Work";
+import { StickyNavbar,Home,Work,About,Contact } from './Components/index'
 
 function App() {
   return (
