@@ -19,7 +19,7 @@ function StickyNavbar() {
   const navList = (
     <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
       <Typography as="li" variant="small" color="blue-gray" className="p-1 font-normal" >
-        <a href="Ho" className="flex items-center">
+        <a href="Home" className="flex items-center">
           Home
         </a>
       </Typography>
