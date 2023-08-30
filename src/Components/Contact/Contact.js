@@ -32,7 +32,7 @@ function Contact() {
         <div className=" bg-gray-800 text-white p-5" >
 
 
-            <div className="max-w-screen-md mx-auto p-5 bg-slate-700 bg-opecity-20 rounded-[25px] backdrop-blur-2xl backdrop-saturate-100   ">
+            <div className="max-w-screen-md mx-auto p-5 bg-slate-700 bg-opacity-20 rounded-[25px] backdrop-blur-2xl backdrop-saturate-100   ">
 
                 <form className="w-full">
                     <div className="flex justify-center text-7xl mb-10">Contact Us</div>
@@ -90,29 +90,22 @@ function Contact() {
 
             
 
-            <div className="flex justify-between mt-5 border-t">
-                <div className="m-5">MatrixTech Labs</div>
-                <div className="m-4 ">{navList}</div>
-            </div>
-
             <div>
-            <div className="flex justify-around flex-wrap">
-                <div className="m-6">Email <p className="text-gray-500 hover:text-gray-300">matrixtechlabs@gmail.com</p> </div>
-                <div className="m-6">Contact <p className="text-gray-500 hover:text-gray-300">1234567899</p></div>
-                <div className="m-6">
-                    Social Media
-                    <div className="text-gray-500 ">
-                        <p className="text-gray-500 hover:text-gray-300">Instagram</p>
-                        <p className="text-gray-500 hover:text-gray-300">LinkedIn</p>
-                        <p className="text-gray-500 hover:text-gray-300">Github</p>
-                    </div> 
+                <div className="flex justify-around flex-wrap mt-5 border-t">
+                    <div class="flex justify-center flex-col items-center m-6">
+                        Email <p class="text-gray-500 hover:text-gray-300">matrixtechlabs@gmail.com</p>
+                    </div>
+                    <div class="flex justify-center flex-col items-center m-6">
+                        Contact <p class="text-gray-500 hover:text-gray-300">1234567899</p>
+                    </div>
+                    <div class="m-6">
+                        &copy; matrixtechlabs
+                    </div>
+                </div>
+                <div className="flex justify-center items-center">
+                    &copy; matrixtechlabs
                 </div>
             </div>
-        </div>
-
-
-
-
         </div>
     );
 }

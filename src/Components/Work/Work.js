@@ -1,9 +1,9 @@
 function Work() {
     return (
         <div className="bg-gray-800 text-white p-5 " >
-            <div className="flex justify-center text-7xl mb-4">Our Skills</div>
-            <div className="flex flex-wrap justify-around">
-                <div className=" p-3 ">
+            <div className="flex justify-center text-7xl mb-20 mt-4">Our Skills</div>
+            <div className="flex flex-wrap justify-center pr-2 pl-2">
+                <div className=" pt-3 pb-3 pr-10 pl-10 ">
                     <p className="pb-[10px]">NodeJs</p>
 
                     <img className="h-[100px]" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" />
@@ -11,13 +11,13 @@ function Work() {
                 </div>
 
 
-                <div className=" p-3 ">
+                <div className=" pt-3 pb-3 pr-10 pl-10 ">
                     <p className="pb-[10px]">flutter</p>
 
                     <img className="h-[100px]" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" />
 
                 </div>
-                <div className=" p-3 ">
+                <div className=" pt-3 pb-3 pr-10 pl-10 ">
                     <p className="pb-[10px]">React</p>
 
                     <img className="h-[100px]" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />
@@ -25,7 +25,7 @@ function Work() {
 
                 </div>
 
-                <div className=" p-3 ">
+                <div className=" pt-3 pb-3 pr-10 pl-10 ">
                     <p className="pb-[10px]">HTML</p>
 
 
@@ -33,21 +33,21 @@ function Work() {
 
 
                 </div>
-                <div className=" p-3 ">
+                <div className=" pt-3 pb-3 pr-10 pl-10 ">
                     <p className="pb-[10px]">Css</p>
 
                     <img className="h-[100px]" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
 
                 </div>
 
-                <div className=" p-3 ">
+                <div className=" pt-3 pb-3 pr-10 pl-10 ">
                     <p className="pb-[10px]">javascript</p>
 
                     <img className="h-[100px]" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
 
 
                 </div>
-                <div className=" p-3 ">
+                <div className=" pt-3 pb-3 pr-10 pl-10 ">
                     <p className="pb-[10px]">MongoDB</p>
 
 
@@ -56,7 +56,7 @@ function Work() {
 
                 </div>
 
-                <div className=" p-3 ">
+                <div className=" pt-3 pb-3 pr-10 pl-10 ">
                     <p className="pb-[10px]">Tailwindcss</p>
 
 
@@ -65,7 +65,7 @@ function Work() {
 
                 </div>
 
-                <div className=" p-3 ">
+                <div className=" pt-3 pb-3 pr-10 pl-10 ">
                     <p className="pb-[10px]">Material Ui</p>
 
 
@@ -74,7 +74,7 @@ function Work() {
 
                 </div>
 
-                <div className=" p-3 ">
+                <div className=" pt-3 pb-3 pr-10 pl-10 ">
                     <p className="pb-[10px]">Next</p>
 
 
