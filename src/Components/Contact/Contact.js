@@ -1,9 +1,38 @@
 function Contact() {
+
+    const navList = (
+        <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
+            <p as="li" variant="small" color="blue-gray" className="p-1 font-normal" >
+                <a href="#" className="flex items-center">
+                    Home
+                </a>
+            </p>
+            <p as="li" variant="small" color="blue-gray" className="p-1 font-normal" >
+                <a href="#" className="flex items-center">
+                    About
+                </a>
+            </p>
+            <p as="li" variant="small" color="blue-gray" className="p-1 font-normal" >
+                <a href="#" className="flex items-center">
+                    Work
+                </a>
+            </p>
+            <p as="li" variant="small" color="blue-gray" className="p-1 font-normal" >
+                <a href="#" className="flex items-center">
+                    Contact
+                </a>
+            </p>
+        </ul>
+    );
+
+
+
+
     return (
-        <div className="h-screen bg-gray-800 text-white " >
+        <div className=" bg-gray-800 text-white p-5" >
 
 
-            <div className="max-w-screen-md mx-auto p-5 bg-slate-600 rounded-[25px] backdrop-blur-2xl backdrop-saturate-100   ">
+            <div className="max-w-screen-md mx-auto p-5 bg-slate-700 bg-opecity-20 rounded-[25px] backdrop-blur-2xl backdrop-saturate-100   ">
 
                 <form className="w-full">
                     <div className="flex justify-center text-7xl mb-10">Contact Us</div>
@@ -58,6 +87,32 @@ function Contact() {
 
                 </form>
             </div>
+
+            
+
+            <div className="flex justify-between mt-5 border-t">
+                <div className="m-5">MatrixTech Labs</div>
+                <div className="m-4 ">{navList}</div>
+            </div>
+
+            <div>
+            <div className="flex justify-around flex-wrap">
+                <div className="m-6">Email <p className="text-gray-500 hover:text-gray-300">matrixtechlabs@gmail.com</p> </div>
+                <div className="m-6">Contact <p className="text-gray-500 hover:text-gray-300">1234567899</p></div>
+                <div className="m-6">
+                    Social Media
+                    <div className="text-gray-500 ">
+                        <p className="text-gray-500 hover:text-gray-300">Instagram</p>
+                        <p className="text-gray-500 hover:text-gray-300">LinkedIn</p>
+                        <p className="text-gray-500 hover:text-gray-300">Github</p>
+                    </div> 
+                </div>
+            </div>
+        </div>
+
+
+
+
         </div>
     );
 }

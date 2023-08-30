@@ -4,15 +4,17 @@ import StickyNavbar from './Components/StickyNavbar/StickyNavbar'
 import About from './Components/About/About'
 import Work from './Components/Work/Work'
 import Contact from './Components/Contact/Contact'
+import Navbar from './Components/Navbar/Navbar'
 
 
 function App() {
   return (
     <div>
-      <StickyNavbar />
+      
+    <StickyNavbar />
       <Home />
-      <Work />
       <About />
+      <Work />
       <Contact />
     </div>
 

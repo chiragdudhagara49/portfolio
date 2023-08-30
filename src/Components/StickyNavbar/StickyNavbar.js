@@ -3,7 +3,6 @@ import {
   Navbar,
   MobileNav,
   Typography,
-  Button,
   IconButton,
 } from "@material-tailwind/react";
 
@@ -20,7 +19,7 @@ function StickyNavbar() {
   const navList = (
     <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
       <Typography as="li" variant="small" color="blue-gray" className="p-1 font-normal" >
-        <a href="#" className="flex items-center">
+        <a href="Ho" className="flex items-center">
           Home
         </a>
       </Typography>
@@ -34,23 +33,25 @@ function StickyNavbar() {
           Work
         </a>
       </Typography>
+      <Typography as="li" variant="small" color="blue-gray" className="p-1 font-normal" >
+        <a href="#" className="flex items-center">
+          Contact
+        </a>
+      </Typography>
     </ul>
   );
 
   return (
    
-      <Navbar className="sticky top-0 z-10 h-max max-w-full rounded-none py-2 px-4 lg:px-8 lg:py-4 bg-gray-400">
-        <div className="flex items-center justify-between text-blue-gray-900">
-          <Typography as="a" href="#" className="mr-4 cursor-pointer py-1.5 font-medium" >
+      <Navbar className="sticky border-0 z-10 top-0 max-w-full py-2 px-4 lg:px-8 lg:py-4  bg-slate-900 backdrop-blur-2xl bg-opacity-60 backdrop-blur-md ">
+
+        <div className="flex items-center justify-between text-blue-gray-900 ">
+          <Typography as="a" href="#" className="mr-4 cursor-pointer py-1 font-medium text-[25px]"  >
             MatrixTech
           </Typography>
 
           <div className="flex items-center gap-4">
             <div className="mr-4 hidden lg:block">{navList}</div>
-
-            <Button variant="gradient" size="sm" className="hidden lg:inline-block">
-              <span>Contect</span>
-            </Button>
 
             <IconButton variant="text" className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden" 
               ripple={false}
@@ -78,9 +79,6 @@ function StickyNavbar() {
         </div>
         <MobileNav open={openNav}>
           {navList}
-          <Button variant="gradient" size="sm" fullWidth className="mb-2">
-            <span>Contect</span>
-          </Button>
         </MobileNav>
       </Navbar>
 
