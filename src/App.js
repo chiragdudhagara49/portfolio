@@ -4,15 +4,12 @@ import StickyNavbar from './Components/StickyNavbar/StickyNavbar'
 import About from './Components/About/About'
 import Work from './Components/Work/Work'
 import Contact from './Components/Contact/Contact'
-import ScrollToTop from './Components/xyz/ScrollToTop'
 
 
 function App() {
   return (
     <div>
     <StickyNavbar />
-    <ScrollToTop />
-
       <Home />
       <About />
       <Work />
