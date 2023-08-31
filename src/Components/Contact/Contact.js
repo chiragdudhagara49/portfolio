@@ -29,7 +29,7 @@ function Contact() {
 
 
     return (
-        <div className=" bg-gray-800 text-white p-5" >
+        <div className=" bg-gray-900 text-white p-5" >
 
 
             <div className="max-w-screen-md mx-auto p-5 bg-slate-700 bg-opacity-20 rounded-[25px] backdrop-blur-2xl backdrop-saturate-100   ">
