@@ -43,7 +43,7 @@ function StickyNavbar() {
 
   return (
    
-      <Navbar className="rounded-[0] sticky border-0 z-10 top-0 max-w-full py-2 px-4 lg:px-8 lg:py-4  bg-slate-900 backdrop-blur-2xl bg-opacity-60 backdrop-blur-md ">
+      <Navbar className="rounded-[0] sticky border-0 z-10 top-0 max-w-full py-2 px-4 lg:px-8 lg:py-4  bg-slate-900 backdrop-blur-2xl bg-opacity-60 backdrop-blur-md  ">
 
         <div className="flex items-center justify-between text-blue-gray-900 ">
           <Typography as="a" href="#" className="mr-4 cursor-pointer py-1 font-medium text-[25px]"  >
