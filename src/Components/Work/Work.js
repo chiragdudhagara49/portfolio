@@ -83,11 +83,21 @@ function Work() {
 
 
                     </div>
+                </div>
 
+                <div className="p-5">
+                    <div className="text-4xl flex justify-center">Our Portfolio</div>
+                    <div className="flex">
+                        <div className="h-[100px] w-[100px] bg-black m-5" >
+                            <div>img of project</div>
+                            <span>Name1 </span>
+                        </div>
+                        <div className="h-[100px] w-[100px] bg-black m-5" >
+                            <div>img of project</div>
+                            <span>Name2 </span>
+                        </div>
 
-
-
-
+                    </div>
                 </div>
             </div>
 
