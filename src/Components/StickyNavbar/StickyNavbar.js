@@ -1,10 +1,15 @@
 import React from "react";
+import { HashLink as Link } from 'react-router-hash-link';
 import {
   Navbar,
   MobileNav,
   Typography,
   IconButton,
+  Collapse,
 } from "@material-tailwind/react";
+
+
+
 
 function StickyNavbar() {
   const [openNav, setOpenNav] = React.useState(false);
@@ -17,11 +22,11 @@ function StickyNavbar() {
   }, []);
 
   const navList = (
-    <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
-      <a href="Home" className="flex items-center">Home</a>
-      <a href="#" className="flex items-center">About</a>
-      <a href="#" className="flex items-center">Work</a>
-      <a href="#" className="flex items-center">Contact</a>
+    <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6 font-lato">
+    <Link smooth to="/Home">Home</Link>
+    <Link smooth to="/About">About</Link>
+    <Link smooth to="/Work">Work</Link>
+    <Link smooth to="/Contact">Contact</Link>
     </ul>
   );
 
@@ -30,7 +35,7 @@ function StickyNavbar() {
     <Navbar className="rounded-[0px] sticky border-0 z-10 top-0 max-w-full py-2 px-4 lg:px-8 lg:py-4  bg-slate-900 backdrop-blur-2xl bg-opacity-60 backdrop-blur-md  ">
 
       <div className="flex items-center justify-between text-blue-gray-900 ">
-        <Typography as="a" href="#" className="mr-4 cursor-pointer py-1 font-medium text-[25px]"  >
+        <Typography as="a" href="#" className="mr-4 cursor-pointer py-1 font-medium text-[25px] font-kanit"  >
           MatrixTech
         </Typography>
 
@@ -61,9 +66,7 @@ function StickyNavbar() {
           </IconButton>
         </div>
       </div>
-      <MobileNav open={openNav}>
-        {navList}
-      </MobileNav>
+     
     </Navbar>
 
 
